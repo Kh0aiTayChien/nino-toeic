@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("/Fonts/Mulish-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url("/Fonts/Mulish-Black.ttf");
+}
+.footer {
+    height: 67.57vh;
+    font-family: 'Mulish-ExtraBold';
+}
+
+.footer .about {
+    height: 60vh;
+    background-color: #105181;
+}
+
+.footer .about .content {
+    margin-left: 10vw;
+}
+.footer .about .content .title{
+    font-family: 'Mulish-Black';
+}
+
+.footer .copyright {
+    height: 7.56vh;
+    background-color: #F5CE00;
+}
+
+.footer .copyright .content {
+    margin-left: 10vw;
+}
