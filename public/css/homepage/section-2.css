@@ -3,6 +3,10 @@
     src: url("/Fonts/Mulish-ExtraBold.ttf");
 }
 @font-face {
+    font-family: 'Mulish-Medium';
+    src: url("/Fonts/Mulish-Medium.ttf");
+}
+@font-face {
     font-family: 'Mulish-Black';
     src: url("/Fonts/Mulish-Black.ttf");
 }
@@ -12,6 +16,9 @@
 }
 .mulish-semibold{
     font-family: 'Mulish-SemiBold';
+}
+.mulish-medium {
+    font-family: 'Mulish-Medium';
 }
 .mulish-extrabold{
     font-family: 'Mulish-ExtraBold';
@@ -23,6 +30,7 @@
     background: url("/images/homepage/section-2/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 5%;
 }
 
 .longer-btn {

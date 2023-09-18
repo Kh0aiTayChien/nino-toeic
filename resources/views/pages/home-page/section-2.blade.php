@@ -1,4 +1,37 @@
 <div class="section-2">
+        <div class="row-test sec2-homepage-pc">
+            <div class="col-xxl-4 col-md-5 containersec2-HP">
+                <p class="headersec2-HP mulish-extrabold">GIỚI THIỆU VỀ</p>
+                <p class="headersec2-HP2 mulish-extrabold">Nino's Classes</p><br>
+                <p class="contentsec2-HP mulish-medium">Trung tâm Thầy Nino TOEIC Nhí Nhố hay còn được biết đến là Nino’s Classes được
+                    thành
+                    lập từ năm 2011, được biết đến là một trong những đơn vị đào tạo Anh ngữ hàng đầu tại Hà Nội.</p><br>
+                <div class="col-xxl-4 col-md-5">
+                    <a href=""
+                       class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
+                        HIỂU
+                        THÊM</a>
+                </div>
+            </div>
+            <img src="{{asset('images/homepage/section4/Mask group.png')}}" class="col-xxl-4 col-md-5 imgsec2-HP">
+        </div>
+    <div class="row-test sec3-homepage-pc">
+        <img src="{{asset('images/homepage/section5/Mask group (1).png')}}" class="col-xxl-4 col-md-5 imgsec3-HP">
+        <div class="col-xxl-4 col-md-5 contentsec3-HP">
+            <p class="headersec2-HP mulish-extrabold">GIỚI THIỆU VỀ </p>
+            <p class="headersec2-HP2 mulish-extrabold">Thầy Nino</p><br>
+            <p class="contentsec2-HP mulish-medium">Thầy Nino tên thật là Nguyễn Hoài Nam, sinh ngày 09/11/1989. Thầy Nino đã tốt
+                nghiệp TESOL học viện American Institute (Mỹ) và có kinh nghiệm trên 11 năm giảng dạy. Với sự trẻ trung,
+                năng động, nhiệt huyết, thầy luôn đem lại cho học viên năng lượng tích cực và những giờ học thú vị.
+            </p><br>
+            <div class="col-xxl-4 col-md-5">
+                <a href=""
+                   class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
+                    HIỂU
+                    THÊM</a>
+            </div>
+        </div>
+    </div>
     <div class="courses">
         <div class="d-flex align-content-center justify-content-center img-course pt-4">
             <img src="{{asset('images/homepage/section-2/courses/courses.png')}}" alt="" style="" class="img-fluid">

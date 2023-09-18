@@ -1,0 +1,44 @@
+.row-test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgsec2-HP {
+    /*padding-left: 3%;*/
+    transform: translateX(6%);
+}
+
+.containersec2-HP {
+    transform: translateX(-6%);
+}
+
+.contentsec2-HP {
+    font-size: 25px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.headersec2-HP {
+    font-size: 45px;
+    color: #965F05;
+}
+.headersec2-HP2 {
+    font-size: 55px;
+    margin-top: -4%;
+    color: #105181;
+}
+
+.btnsec2-HP {
+    width: 45%;
+    height: 50px;
+    background-color: #F5CE00;
+    border: none;
+}
+
+.textbtn {
+    font-size: 20px;
+    margin-top: 2%;
+    color: white;
+}
