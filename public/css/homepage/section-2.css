@@ -2,31 +2,39 @@
     font-family: 'Mulish-ExtraBold';
     src: url("/Fonts/Mulish-ExtraBold.ttf");
 }
+
 @font-face {
     font-family: 'Mulish-Medium';
     src: url("/Fonts/Mulish-Medium.ttf");
 }
+
 @font-face {
     font-family: 'Mulish-Black';
     src: url("/Fonts/Mulish-Black.ttf");
 }
+
 @font-face {
     font-family: 'Mulish-SemiBold';
     src: url("/Fonts/Mulish-SemiBold.ttf");
 }
-.mulish-semibold{
+
+.mulish-semibold {
     font-family: 'Mulish-SemiBold';
 }
+
 .mulish-medium {
     font-family: 'Mulish-Medium';
 }
-.mulish-extrabold{
+
+.mulish-extrabold {
     font-family: 'Mulish-ExtraBold';
 }
-.mulish-black{
+
+.mulish-black {
     font-family: 'Mulish-Black';
 }
-.section-2{
+
+.section-2 {
     background: url("/images/homepage/section-2/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +79,8 @@
     width: 70%;
     margin: 0px auto;
 }
-.carousel-knowledge{
+
+.carousel-knowledge {
     width: 70%;
     margin: 0px auto;
 }
@@ -79,6 +88,7 @@
 .courses .slick-slide {
     margin: 10px;
 }
+
 .knowledge .slick-slide {
     margin: 10px;
 }
@@ -91,6 +101,7 @@
 .courses .slick-slide:not(.slick-active) {
     opacity: 0.5;
 }
+
 .knowledge .slick-slide:not(.slick-active) {
     opacity: 0.5;
 }
@@ -114,7 +125,8 @@
 .custom-next-arrow-course {
     right: 10px;
 }
-.hall-of-fame .card{
+
+.hall-of-fame .card {
     background: transparent;
 }
 
@@ -153,6 +165,7 @@
     padding: 0;
     margin-top: 3rem;
 }
+
 .knowledge .slick-dots {
     display: flex;
     justify-content: start;
@@ -207,7 +220,44 @@
     width: 150px;
 }
 
+.section-2-mb {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
+    .section-2-mb {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .section-2 {
+        display: none;
+    }
+
+    .headersec2-mb-HP {
+        font-size: 30px;
+        color: #965F05;
+        line-height: 5px;
+    }
+    .headersec2-mb2-HP {
+        font-size: 35px;
+        color: #105181;
+        line-height: 40px;
+    }
+    .contentsec2-mb-HP {
+        text-align: justify;
+        justify-content: center;
+        width: 95%;
+        padding-left: 5%;
+        font-weight: bold;
+        word-spacing: 2px;
+        letter-spacing: 0.08rem;
+    }
+    .imgsec2-mb-HP {
+        width: 90%;
+    }
     .img-course {
         scale: 70%;
     }
