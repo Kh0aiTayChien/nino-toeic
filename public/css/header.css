@@ -11,6 +11,13 @@
     height: 11.5vh;
     background-color: white;
 }
+.header-mobile {
+    height: 9vh;
+    background-color: white;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
+}
 
 .header-content {
     margin-left: 10vw;

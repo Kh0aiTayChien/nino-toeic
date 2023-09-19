@@ -79,7 +79,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
 
             </div>
-            <div class="sidebar-brand-text mx-3">Min Min Care <sup><i class="fas fa-laugh-wink"></i></sup></div>
+            <div class="sidebar-brand-text mx-3">NINO TOEIC <sup><i class="fas fa-laugh-wink"></i></sup></div>
         </a>
 
         <!-- Divider -->
@@ -99,8 +99,8 @@
                 //Thêm các item con khác tương tự ở đây
             ];
             $products = [
-                ['name' => 'Sản phẩm mới', 'route' => route('products.create')],
-                ['name' => 'Danh sách sản phẩm', 'route' => route('products.index')],
+                ['name' => 'Khóa học mới', 'route' => route('products.create')],
+                ['name' => 'Danh sách khóa học', 'route' => route('products.index')],
             ];
              $images = [
                 ['name' => 'Ảnh mới', 'route' => route('images.create')],
@@ -146,7 +146,7 @@
             <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
                aria-controls="products">
                 <i class="fa fa-shopping-bag"></i>
-                <span>Sản phẩm</span>
+                <span>Khóa học</span>
             </a>
             <div class="collapse" id="products">
                 <ul class="nav flex-column">

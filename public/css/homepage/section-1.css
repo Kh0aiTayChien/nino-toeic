@@ -25,8 +25,8 @@
 .carousel-indicators [data-bs-target]{
     background-color: #fff; /* Màu nền trắng cho dot không active */
     border: 2px solid #F5CE00; /* Viền vàng cho dot không active */
-    color: transparent; /* Màu chữ vàng cho dot không active */
-    padding: 5px;
+    color: white; /* Màu chữ vàng cho dot không active */
+    padding: 3px;
     width: 2px; /* Đường kính của dot */
     height: 2px; /* Đường kính của dot */
     border-radius: 50%; /* Hình dạng tròn cho dot */

@@ -1,8 +1,8 @@
-<div class="footer">
+<div class="footer ">
     <div class=" about text-white ">
         <div class="content row me-1">
-            <div class="col-6 gx-0">
-                <img class=header-logo src="{{asset('images/footer/LOGO.png')}}" alt="LOGO">
+            <div class="col-lg-6 col-md-12 -gx-0">
+                <img class="header-logo img-fluid pt-3" src="{{asset('images/footer/LOGO.png')}}" alt="LOGO" style="">
                 <div class="mt-4">
                     <div class="">
                         <img class=header-logo src="{{asset('images/footer/phone.png')}}" alt="phone">
@@ -30,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6 mt-5">
+            <div class="col-lg-6 col-md-12 mt-5">
                 <div class="title mt-5">GIỚI THIỆU</div>
                 <div class="mt-2">Về Nino’s Classes</div>
                 <div class="mt-2">Về Thầy Nino</div>

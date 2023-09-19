@@ -35,6 +35,7 @@ class ProductController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required|string|unique:products,name',
+            'title' => 'required|string|',
             'price' => 'required|numeric',
             'description' => 'required',
         ], [
@@ -43,6 +44,7 @@ class ProductController extends Controller
         ]);
         $product = new Product();
         $product->name = $validatedData['name'];
+        $product->title = $validatedData['title'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
 
@@ -70,6 +72,7 @@ class ProductController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required|string|',
+            'title' => 'required|string|',
             'price' => 'required|numeric',
             'description' => 'required',
         ], [
@@ -79,6 +82,7 @@ class ProductController extends Controller
         ]);
         $product = Product::findOrFail($id);
         $product->name = $validatedData['name'];
+        $product->title = $validatedData['title'];
         $product->price = $validatedData['price'];
         $product->description = $validatedData['description'];
 

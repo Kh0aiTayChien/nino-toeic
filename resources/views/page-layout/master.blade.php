@@ -36,6 +36,12 @@
     <link href="{{asset('/css/homepage/section-3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/homepage/section4.css')}}" rel="stylesheet">
     <link href="{{asset('/css/homepage/section5.css')}}" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+            touch-action: pan-y;
+        }
+    </style>
 </head>
 <body>
 @include('page-layout/header')

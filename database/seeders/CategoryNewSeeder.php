@@ -5,14 +5,14 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class CategorySeeder extends Seeder
+class CategoryNewSeeder extends Seeder
 {
     public function run()
     {
         $data = [
             [
-                'title' => 'tin tức',
-                'slug' => 'tin-tuc',
+                'title' => 'chia sẻ kiến thức',
+                'slug' => 'chia-se-kien-thuc',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],

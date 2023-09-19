@@ -47,7 +47,7 @@ class ImageController extends Controller
             $imageName = $uploadedImage->getClientOriginalName();
 
             $old_image = InterventionImage::make($uploadedImage);
-            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
+            $overlay = InterventionImage::make(public_path('images/homepage/section-1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
             $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
             $quality = 100;
             $new_image->save(public_path('uploads/images/') . $imageName, $quality);
@@ -83,7 +83,7 @@ class ImageController extends Controller
             $imageName = $uploadedImage->getClientOriginalName();
 
             $old_image = InterventionImage::make($uploadedImage);
-            $overlay = InterventionImage::make(public_path('images/sec1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
+            $overlay = InterventionImage::make(public_path('images/homepage/section-1/rectangle-black.png'))->resize($old_image->getWidth(), $old_image->getHeight());
             $new_image= $old_image->insert($overlay, 'top-left', 0, 0);
             $quality = 100;
             $new_image->save(public_path('uploads/images/') . $imageName, $quality);
