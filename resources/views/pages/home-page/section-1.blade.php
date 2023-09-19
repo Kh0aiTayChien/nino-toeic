@@ -1,5 +1,5 @@
 <div class="section-1 d-flex justify-content-center align-items-center position-relative">
-    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 1030; bottom: 12rem">
+    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 12vh">
         <a href="" class="btn yellow-bg text-white btn-sm mb-3  btn-long button-shake mulish-black py-2"
         >NHẬN TƯ VẤN NGAY</a>
     </div>

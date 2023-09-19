@@ -232,8 +232,8 @@
         padding-top: 10%;
     }
 
-    .section-2 {
-        display: none;
+    .sec2-homepage-pc, .sec3-homepage-pc {
+        display: none !important;
     }
 
     .headersec2-mb-HP {

@@ -34,6 +34,36 @@
             </div>
         </div>
     </div>
+    <div class="section-2-mb">
+        <div class="sec2mb-homepage">
+            <p class="headersec2-mb-HP mulish-extrabold">GIỚI THIỆU VỀ</p>
+            <p class="headersec2-mb2-HP mulish-extrabold">Nino's Classes</p>
+            <p class="contentsec2-mb-HP mulish-medium">Trung tâm Thầy Nino TOEIC Nhí Nhố hay còn được biết đến là Nino’s Classes được
+                thành
+                lập từ năm 2011, được biết đến là một trong những đơn vị đào tạo Anh ngữ hàng đầu tại Hà Nội.</p>
+            <img src="{{asset('images/homepage/section4/Mask group.png')}}" class="imgsec2-mb-HP">
+            <div class="col-xxl-4 col-md-5 mt-2 mb-4">
+                <a href=""
+                   class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
+                    HIỂU
+                    THÊM</a>
+            </div>
+        </div>
+        <div class="sec2mb-homepage">
+            <p class="headersec2-mb-HP mulish-extrabold">GIỚI THIỆU VỀ</p>
+            <p class="headersec2-mb2-HP mulish-extrabold">Thầy Nino</p>
+            <p class="contentsec2-mb-HP mulish-medium">Thầy Nino tên thật là Nguyễn Hoài Nam, sinh ngày 09/11/1989. Thầy Nino đã tốt
+                nghiệp TESOL học viện American Institute (Mỹ) và có kinh nghiệm trên 11 năm giảng dạy. Với sự trẻ trung,
+                năng động, nhiệt huyết, thầy luôn đem lại cho học viên năng lượng tích cực và những giờ học thú vị.</p>
+            <img src="{{asset('images/homepage/section5/Mask group (1).png')}}" class="imgsec2-mb-HP">
+            <div class="col-xxl-4 col-md-5 mt-2 mb-4">
+                <a href=""
+                   class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
+                    HIỂU
+                    THÊM</a>
+            </div>
+        </div>
+    </div>
     <div class="courses">
         <div class="d-flex align-content-center justify-content-center img-course pt-4">
             <img src="{{asset('images/homepage/section-2/courses/courses.png')}}" alt="" style="" class="img-fluid">
@@ -59,7 +89,7 @@
                                 <p class="card-text text-center mulish-black">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
                                 <p class="card-text text-center mulish-extrabold" style="height: 12rem">
-                                    {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($course->description), 250)) }}</p>
+                                    {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($course->description), 150)) }}</p>
                                 <div class="d-flex align-content-center justify-content-center ">
                                     <a href=""
                                        class="btn blue-bg text-white btn-sm mb-3  btn-long button-shake mulish-black">XEM
@@ -295,36 +325,5 @@
             });
         </script>
 
-    </div>
-</div>
-
-<div class="section-2-mb">
-    <div class="sec2mb-homepage">
-        <p class="headersec2-mb-HP mulish-extrabold">GIỚI THIỆU VỀ</p>
-        <p class="headersec2-mb2-HP mulish-extrabold">Nino's Classes</p>
-        <p class="contentsec2-mb-HP mulish-medium">Trung tâm Thầy Nino TOEIC Nhí Nhố hay còn được biết đến là Nino’s Classes được
-            thành
-            lập từ năm 2011, được biết đến là một trong những đơn vị đào tạo Anh ngữ hàng đầu tại Hà Nội.</p>
-        <img src="{{asset('images/homepage/section4/Mask group.png')}}" class="imgsec2-mb-HP">
-        <div class="col-xxl-4 col-md-5 mt-2 mb-4">
-            <a href=""
-               class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
-                HIỂU
-                THÊM</a>
-        </div>
-    </div>
-    <div class="sec2mb-homepage">
-        <p class="headersec2-mb-HP mulish-extrabold">GIỚI THIỆU VỀ</p>
-        <p class="headersec2-mb2-HP mulish-extrabold">Thầy Nino</p>
-        <p class="contentsec2-mb-HP mulish-medium">Thầy Nino tên thật là Nguyễn Hoài Nam, sinh ngày 09/11/1989. Thầy Nino đã tốt
-            nghiệp TESOL học viện American Institute (Mỹ) và có kinh nghiệm trên 11 năm giảng dạy. Với sự trẻ trung,
-            năng động, nhiệt huyết, thầy luôn đem lại cho học viên năng lượng tích cực và những giờ học thú vị.</p>
-        <img src="{{asset('images/homepage/section5/Mask group (1).png')}}" class="imgsec2-mb-HP">
-        <div class="col-xxl-4 col-md-5 mt-2 mb-4">
-            <a href=""
-               class="btn yellow-bg btn-block mb-3 text-white mitr-medium longer-btn shadow-effect button-shake mulish-black">TÌM
-                HIỂU
-                THÊM</a>
-        </div>
     </div>
 </div>

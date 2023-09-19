@@ -90,13 +90,13 @@
             $('.dropdown-header').removeClass('d-none');
         });
         $(window).scroll(function() {
-            var scrollTop = $(this).scrollTop();
-            var headerMobile = $(".header-mobile");
+            let scrollTop = $(this).scrollTop();
+            let headers = $(".header");
 
             if (scrollTop > 0) {
-                headerMobile.addClass("scrolled");
+                headers.addClass("scrolled");
             } else {
-                headerMobile.removeClass("scrolled");
+                headers.removeClass("scrolled");
             }
         });
     });
