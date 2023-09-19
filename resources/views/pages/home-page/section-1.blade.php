@@ -1,20 +1,22 @@
-<div class="section-1 d-flex justify-content-center align-items-center">
+<div class="section-1 d-flex justify-content-center align-items-center position-relative">
+    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 1030; bottom: 12rem">
+        <a href="" class="btn yellow-bg text-white btn-sm mb-3  btn-long button-shake mulish-black py-2"
+        >NHẬN TƯ VẤN NGAY</a>
+    </div>
     <div id="section-1-carousel" class="carousel slide w-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            @foreach($images as $key => $image)
+                <button type="button" data-bs-target="#section-1-carousel"
+                        data-bs-slide-to="{{$key}}" class="{{$key == 0 ? 'active' : ''}}"
+                        aria-label="Slide {{$key + 1}}"></button>
+            @endforeach
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{asset('images/homepage/section-1/banner.png')}}" class="img-slide " alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="{{asset('images/homepage/section-1/banner.png')}}" class="img-slide " alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="{{asset('images/homepage/section-1/banner.png')}}" class="img-slide " alt="...">
-            </div>
+            @foreach($images as $key => $image)
+                <div class="carousel-item {{$key == 0 ? 'active' : ''}}">
+                    <img src="{{$image->image_url}}" class="img-slide" alt="img-slide">
+                </div>
+            @endforeach
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#section-1-carousel" data-bs-slide="prev">
             <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake img-carousel-arrow"/>

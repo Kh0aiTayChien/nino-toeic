@@ -12,8 +12,8 @@ class CategoryPictureSeeder extends Seeder
     {
         $data = [
             [
-                'title' => 'ảnh slide pc 01',
-                'slug' => 'anh-slide-pc-01',
+                'title' => 'ảnh banner trang chủ',
+                'slug' => 'anh-banner-trang-chu',
                 'type' => 2,
                 'created_at' => now(),
                 'updated_at' => now(),

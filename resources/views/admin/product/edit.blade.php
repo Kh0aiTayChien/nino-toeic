@@ -101,7 +101,7 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Tên sản phẩm<span
                                                 class="small text-danger">*</span></label>
@@ -109,7 +109,15 @@
                                                placeholder="Tên sản phẩm" value="{{$product->name}}">
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Tiêu đề sản phẩm<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="name" class="form-control" name="title"
+                                               placeholder="Tiêu đề sản phẩm" value="{{$product->title}}">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả<span
                                                 class="small text-danger">*</span></label>

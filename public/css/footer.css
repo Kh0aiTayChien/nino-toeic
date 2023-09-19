@@ -9,16 +9,26 @@
 .footer {
     height: 67.57vh;
     font-family: 'Mulish-ExtraBold';
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .footer .about {
-    height: 60vh;
     background-color: #105181;
+    padding-bottom: 3rem;
 }
 
 .footer .about .content {
     margin-left: 10vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer .about .content {
+        margin: 0 2vw 0 2vw;
+    }
+}
+
 .footer .about .content .title{
     font-family: 'Mulish-Black';
 }
