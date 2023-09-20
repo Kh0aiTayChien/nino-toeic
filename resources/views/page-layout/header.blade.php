@@ -1,13 +1,13 @@
-<div class="header shadow-effect sticky-top d-none d-md-block">
+<div class="header shadow-effect sticky-top d-none d-md-block ">
     <div class="header-content d-flex align-content-center ">
         <img class=header-logo src="{{asset('images/header/LOGO.png')}}" alt="LOGO">
         <div class="header-list d-flex justify-content-center align-content-center row">
-            <div class="col-2 text-center">TRANG CHỦ</div>
-            <div class="col-2 text-center">GIỚI THIỆU</div>
-            <div class="col-2 text-center">VỀ THẦY NINO</div>
-            <div class="col-2 text-center">CÁC KHÓA HỌC</div>
-            <div class="col-2 text-center">KIẾN THỨC</div>
-            <div class="col-2 text-center">
+            <div class="col-2 text-center no-opacity">TRANG CHỦ</div>
+            <div class="col-2 text-center no-opacity">GIỚI THIỆU</div>
+            <div class="col-2 text-center no-opacity">VỀ THẦY NINO</div>
+            <div class="col-2 text-center no-opacity">CÁC KHÓA HỌC</div>
+            <div class="col-2 text-center no-opacity">KIẾN THỨC</div>
+            <div class="col-2 text-center no-opacity">
                 <button class="btn-contact px-5 py-1">LIÊN HỆ</button>
             </div>
         </div>
@@ -16,7 +16,27 @@
 <div class="header-mobile shadow-effect sticky-top d-md-none position-relative">
     <div class="position-absolute dropdown-header" style="right: -2px; scale: 60%">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
-            <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)" d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)" d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path><linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891" gradientUnits="userSpaceOnUse"><stop offset=".237" stop-color="#3bc9f3"></stop><stop offset=".85" stop-color="#1591d8"></stop></linearGradient><path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)" d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
+            <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891"
+                            gradientUnits="userSpaceOnUse">
+                <stop offset=".237" stop-color="#3bc9f3"></stop>
+                <stop offset=".85" stop-color="#1591d8"></stop>
+            </linearGradient>
+            <path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)"
+                  d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path>
+            <linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891"
+                            gradientUnits="userSpaceOnUse">
+                <stop offset=".237" stop-color="#3bc9f3"></stop>
+                <stop offset=".85" stop-color="#1591d8"></stop>
+            </linearGradient>
+            <path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)"
+                  d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path>
+            <linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891"
+                            gradientUnits="userSpaceOnUse">
+                <stop offset=".237" stop-color="#3bc9f3"></stop>
+                <stop offset=".85" stop-color="#1591d8"></stop>
+            </linearGradient>
+            <path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)"
+                  d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
         </svg>
     </div>
     <div class="position-absolute dropdown-cancer d-none" style="right: 2px; scale: 50%">
@@ -73,9 +93,6 @@
         height: 100%;
         z-index: 999; /* Đảm bảo div phủ lên trên cùng */
     }
-    .scrolled {
-        opacity: 0.7;
-    }
 </style>
 <script>
     $(document).ready(function () {
@@ -88,16 +105,6 @@
             $('.menu-dropdown').addClass('d-none');
             $('.dropdown-cancer').addClass('d-none');
             $('.dropdown-header').removeClass('d-none');
-        });
-        $(window).scroll(function() {
-            let scrollTop = $(this).scrollTop();
-            let headers = $(".header");
-
-            if (scrollTop > 0) {
-                headers.addClass("scrolled");
-            } else {
-                headers.removeClass("scrolled");
-            }
         });
     });
 </script>
