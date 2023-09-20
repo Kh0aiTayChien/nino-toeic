@@ -9,7 +9,7 @@
 
 .header {
     height: 11.5vh;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .header-mobile {
     height: 9vh;

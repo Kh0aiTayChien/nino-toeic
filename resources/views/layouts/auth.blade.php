@@ -21,7 +21,7 @@
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
     <style>
         .bg-gradient-green {
-            background: linear-gradient(-30deg, lightseagreen, #59843d, lightblue, lightgreen);
+            background: linear-gradient(-30deg, #105181, #965F05, #105181, #965F05);
             background-size: 400% 400%;
             animation: gradient 6s ease infinite;
             height: 100vh;
